@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background-image: linear-gradient(to bottom left, #000 60%, #fff); */
+  background-image: url("./100.jpg");
+  background-size: cover;
+  background-position: center;
+ background-attachment: fixed;
+  
+}
+
+
+
+.sda {
+  /* box-shadow: #000 5px 5px 10px  inset #0000004f 5px 5px 10px; */
+  box-shadow: #000 1px 1px 3px ;
+}
+
+.bo{
+  box-shadow: #000 1px 1px 3px ;
+}
