@@ -10,11 +10,12 @@ const ProjectCard = ({ title, description, imgUrl, tech, liveLink, codeLink }) =
       <img 
         src={imgUrl} 
         alt={title} 
-        className="w-full h-48 object-cover rounded-xl mb-4"
+        className="w-full  object-cover rounded-xl mb-4"
       />
+      
       <h3 className="text-xl text-black/70 font-bold mb-2">{title}</h3>
-      <p className="text-sm font-semibold text-white/80 mb-2">{description}</p>
-      <p className="text-sm font-semibold text-white/80 mb-4">🔧 {tech}</p>
+      <p className="text-sm font-semibold text-black/70 mb-2">{description}</p>
+      <p className="text-sm font-semibold text-black/70 mb-4">🔧 {tech}</p>
       <div className="flex gap-3">
         <a 
           href={liveLink} 
