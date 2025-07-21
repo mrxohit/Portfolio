@@ -10,7 +10,7 @@ const Navbar = () => {
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="bg-white/15 fixed w-full z-10 text-white bo font-semibold p-3 shadow-lg"
+      className="bg-white/15 fixed w-full z-10 text-white sda font-semibold p-3 shadow-lg"
     >
       <div className="container mx-auto  flex justify-between  items-center">
         <h1 className="text-xl bg-white/10 bo  px-3  py-1 rounded-2xl text-black/60 font-bold">
