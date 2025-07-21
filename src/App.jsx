@@ -24,6 +24,7 @@ function App() {
        
         <Route path="/service" element={<Services />} />
       </Routes>
+      <Portfolio />
       <About />
       <Projects />
       <Skills />
