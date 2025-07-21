@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import "../index.css";
 function Portfolio() {
   return (<div className="">
-      <div className=" grid md:grid-cols-2  gap-8 ml-[3.5vw] w-[95vw] p-16  sm:p-3   ">
+      <div className=" grid md:grid-cols-2  gap-8 ml-[3.5vw] w-[95vw] p-16  o   ">
         
 
         <div className="justify-items-start pt-[10vh] items-start flex flex-col   mt-[7vw]  ">
@@ -49,7 +49,7 @@ function Portfolio() {
           <motion.img
             src="./me.png"
             alt="Mohit Tailor"
-            className="w-[75%] rounded-2xl sm:max-w-[180px] sm:w-full sm:h-auto shadow-xl  mx-auto mb-6"
+            className="w-[75%] rounded-2xl sm:max-w-[180px] r shadow-xl  mx-auto mb-6"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 1 }}

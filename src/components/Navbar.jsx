@@ -13,7 +13,7 @@ const Navbar = () => {
       className="bg-white/15 fixed w-full z-10 text-white sda font-semibold p-3 shadow-lg"
     >
       <div className="container mx-auto  flex justify-between  items-center">
-        <h1 className="text-xl sm:text-xl bg-white/10 bo  px-3  py-1 rounded-2xl text-black/60 font-bold">
+        <h1 className="text-xl s bg-white/10 bo  px-3  py-1 rounded-2xl text-black/60 font-bold">
           MOHIT'S PORTFOLIO
         </h1>
         <div className="space-x-7  bg-black/20  px-3 py-2 rounded-2xl text-[1em]  text-white/80 hidden md:flex">

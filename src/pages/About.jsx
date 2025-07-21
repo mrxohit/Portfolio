@@ -19,7 +19,7 @@ function About() {
           About Me
         </motion.h1>
 
-        <div className="grid md:grid-cols-2 gap-10 text-wrap items-center">
+        <div className="grid md:grid-cols-2 gap-10  items-center">
           <motion.div
             initial={{ x: -40, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -45,7 +45,7 @@ function About() {
             <img
               src="./me.png"
               alt="Mohit's Profile"
-              className="rounded-2xl bo shadow-lg max-w-[300px] md:max-w-[400px] sm:max-w-[250px] sm:w-full sm:h-auto"
+              className="rounded-2xl bo r shadow-lg max-w-[300px] md:max-w-[400px] "
             />
           </motion.div>
         </div>
