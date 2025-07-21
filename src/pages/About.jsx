@@ -15,11 +15,11 @@ function About() {
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
-           className="text-4xl md:text-5xl font-bold mb-8 border-b-4 border-black/30  bg-white/20 px-10 py-1 rounded-2xl inline-block">
+           className="text-4xl md:text-5xl font-bold mb-8 border-b-4 border-black/30 sm:text-3xl bg-white/20 px-10 py-1 rounded-2xl inline-block">
           About Me
         </motion.h1>
 
-        <div className="grid md:grid-cols-2 gap-10 items-center">
+        <div className="grid md:grid-cols-2 gap-10 text-wrap items-center">
           <motion.div
             initial={{ x: -40, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -45,7 +45,7 @@ function About() {
             <img
               src="./me.png"
               alt="Mohit's Profile"
-              className="rounded-2xl bo shadow-lg max-w-[300px] md:max-w-[400px] "
+              className="rounded-2xl bo shadow-lg max-w-[300px] md:max-w-[400px] sm:max-w-[250px] sm:w-full sm:h-auto"
             />
           </motion.div>
         </div>

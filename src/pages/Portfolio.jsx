@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import "../index.css";
 function Portfolio() {
   return (<div className="">
-      <div className=" grid md:grid-cols-2  gap-8 ml-[3.5vw] w-[95vw] p-16   ">
+      <div className=" grid md:grid-cols-2  gap-8 ml-[3.5vw] w-[95vw] p-16  sm:p-3   ">
         
 
         <div className="justify-items-start pt-[10vh] items-start flex flex-col   mt-[7vw]  ">
@@ -37,9 +37,11 @@ function Portfolio() {
           animate={{ scale: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
         >
+          <a href="#projects" >
           <button className="bg-black/50 bo  text-white/70 px-5 py-2 rounded-full font-semibold hover:bg-black">
             View Projects
           </button>
+          </a>
         </motion.div>
         
         </div>
@@ -47,7 +49,7 @@ function Portfolio() {
           <motion.img
             src="./me.png"
             alt="Mohit Tailor"
-            className="w-[75%] rounded-2xl shadow-xl  mx-auto mb-6"
+            className="w-[75%] rounded-2xl sm:max-w-[180px] sm:w-full sm:h-auto shadow-xl  mx-auto mb-6"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 1 }}
