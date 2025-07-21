@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import "../index.css";
 function Portfolio() {
-  return (<div className=" h-screen">
-      <div className=" grid md:grid-cols-2 gap-8  w-full p-16   ">
+  return (<div className="">
+      <div className=" grid md:grid-cols-2  gap-8 ml-[3.5vw] w-[95vw] p-16   ">
         
 
-        <div className="justify-items-start items-start flex flex-col   mt-[7vw]  ">
+        <div className="justify-items-start pt-[10vh] items-start flex flex-col   mt-[7vw]  ">
 
         <motion.h1
           className="text-4xl text-white/60 md:text-6xl font-bold"
@@ -43,7 +43,7 @@ function Portfolio() {
         </motion.div>
         
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center  p-[1vw pt-[10vh] items-center">
           <motion.img
             src="./me.png"
             alt="Mohit Tailor"
