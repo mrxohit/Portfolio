@@ -17,24 +17,26 @@ const Navbar = () => {
           MOHIT'S PORTFOLIO
         </h1>
         <div className="space-x-7  bg-black/20  px-3 py-2 rounded-2xl text-[1em]  text-white/80 hidden md:flex">
-          <Link className="hover:text-black/70" to="/">
+           <a href="#home" className="hover:text-black/70">
             Home
-          </Link>
-          <Link className="hover:text-black/70" to="/about">
+          </a>
+          
+          <a href="#about" className="hover:text-black/70">
             About
-          </Link>
-          <Link className="hover:text-black/70" to="/projects">
+            </a>
+    
+           <a href="#projects" className="hover:text-black/70">
             Projects
-          </Link>
-          <Link className="hover:text-black/70" to="/skills">
+          </a>
+           <a href="#skills" className="hover:text-black/70">
             Skills
-          </Link>
-          <Link className="hover:text-black/70" to="/service">
+          </a>
+           <a href="#service" className="hover:text-black/70">
             Service
-          </Link>
-          <Link className="hover:text-black/70" to="/contact">
+          </a>
+           <a href="#contact" className="hover:text-black/70">
             Contact
-          </Link>
+         </a>
         </div>
       </div>
     </motion.nav>

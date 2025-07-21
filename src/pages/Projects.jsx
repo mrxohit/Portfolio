@@ -30,7 +30,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="min-h-screen w-[85vw] mt-16  ml-[5.7vw] py-16 px-4">
+    <div id="projects" className="min-h-screen  w-[85vw] mt-16  ml-[5.7vw] py-16 px-4">
       {/* <h2 className="text-3xl text-white font-bold mb-8 text-center">My Projects</h2> */}
       <h1 className="text-4xl md:text-5xl font-bold  mb-8 border-b-4 border-black/30 text-black/60  bg-white/20 px-10 py-1 rounded-2xl inline-block">
           Projects

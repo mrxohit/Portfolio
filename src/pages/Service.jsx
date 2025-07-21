@@ -27,7 +27,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-20  text-white px-4 md:px-12">
+    <section id="service" className="py-20  text-white px-4 md:px-12">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}

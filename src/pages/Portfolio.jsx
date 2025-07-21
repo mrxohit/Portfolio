@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "../index.css";
-function Home() {
+function Portfolio() {
   return (<div className=" h-screen">
       <div className=" grid md:grid-cols-2 gap-8  w-full p-16   ">
         
@@ -59,4 +59,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Portfolio;

@@ -13,7 +13,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="min-h-screen  w-[85vw]  ml-[5.7vw] text-black/70 px-4 py-16">
+    <div id="skills" className="min-h-screen  w-[85vw]  ml-[5.7vw] text-black/70 px-4 py-16">
       <h1 className="text-4xl text-center md:text-5xl font-bold  mb-14 border-b-4 border-black/30 text-black/60  bg-white/20 px-10 py-1 rounded-2xl inline-block">
           Skills
         </h1>
