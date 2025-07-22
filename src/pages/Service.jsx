@@ -34,10 +34,10 @@ const Services = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-14"
       >
-        <h1 className="text-4xl text-center md:text-5xl font-bold  mb-14 border-b-4 border-black/30 text-black/60  bg-white/20 px-10 py-1 rounded-2xl inline-block">
+        <h1 className="text-3xl h1 text-center md:text-4xl font-bold  mb-14 border-b-4 border-black/30 text-black/60  bg-white/20 px-10 py-1 rounded-2xl inline-block">
           Services
         </h1>
-        <p className="text-black/70 font-semibold">Here’s what I can offer to boost your online presence</p>
+        <p className="text-white/70 font-semibold">Here’s what I can offer to boost your online presence</p>
       </motion.div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10">
@@ -47,13 +47,13 @@ const Services = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}
-            className="bg-white/10 rounded-2xl p-6 bo "
+            className="bg-black/20 sda rounded-2xl p-6 bo "
           >
             <div className="flex items-center gap-4 mb-4">
-              <div className="bg-white/30 p-3 rounded-xl">{service.icon}</div>
-              <h3 className="text-xl font-bold text-b   lack/60">{service.title}</h3>
+              <div className="bg-black/50  sda p-3 rounded-xl">{service.icon}</div>
+              <h3 className="text-xl font-bold text-white/60">{service.title}</h3>
             </div>
-            <p className="text-black/40 tracking-wider  font-semibold text-sm">{service.desc}</p>
+            <p className="text-white/70 tracking-wider  font-semibold text-sm">{service.desc}</p>
           </motion.div>
         ))}
       </div>

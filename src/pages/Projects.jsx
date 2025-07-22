@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Rajkhabar",
       description: "News app using React and Firebase.",
       imgUrl: "./p2.png", 
-      tech: "React, Firebase",
+      tech: "React, Tailwind CSS",
       liveLink: "https://mrxohit.github.io/RajKhabar/",
       codeLink: "https://github.com/mrxohit/RajKhabar"
     },
@@ -23,18 +23,18 @@ const Projects = () => {
       title: "Insta Clone",
       description: "Instagram clone using React and Firebase.",
       imgUrl: "./p3.png", // Replace with your screenshot
-      tech: "React, Firebase",
+      tech: "React, Tailwind CSS, backend",
       liveLink: "#",
       codeLink: "https://github.com/mrxohit/instagram-clone"
     }
   ];
 
   return (
-    <div id="projects" className="min-h-screen  w-[85vw] mt-16  ml-[5.7vw] py-16 px-4">
+    <div id="projects" className=" sda bg-black/30  w-[85vw] mt-16  ml-[5.7vw] py-16 px-4 mb-24 rounded-3xl">
       {/* <h2 className="text-3xl text-white font-bold mb-8 text-center">My Projects</h2> */}
-      <h1 className="text-4xl md:text-5xl font-bold  mb-8 border-b-4 border-black/30 text-black/60  bg-white/20 px-10 py-1 rounded-2xl inline-block">
+      <div className="flex justify-center"><h1 className="text-3xl md:text-4xl font-bold  mb-8 border-b-4 border-black/30 text-black/60 font-serif hd  bg-white/20 px-10 py-1 rounded-2xl inline-block">
           Projects
-        </h1>
+        </h1></div>
       <div className="grid  md:grid-cols-2  min-w-screen lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />

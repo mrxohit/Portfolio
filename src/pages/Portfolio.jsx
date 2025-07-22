@@ -16,7 +16,7 @@ function Portfolio() {
           Hi, I'm  Mohit Tailor
         </motion.h1>
         <motion.p
-          className="text-xl bg-black/30 md:text-2xl bo mt-4 font-medium rounded-2xl px-3 text-black/70"
+          className="text-xl bg-white/30 md:text-2xl bo mt-4 font-medium rounded-2xl px-3 text-black/70"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
@@ -24,7 +24,7 @@ function Portfolio() {
           Web Developer
         </motion.p>
         <motion.p
-          className="text-md font-semibold text-gray-900 md:text-lg mt-2"
+          className="text-md font-semibold text-white/50 md:text-lg mt-2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.9, duration: 0.8 }}
@@ -38,7 +38,7 @@ function Portfolio() {
           transition={{ delay: 1.2, duration: 0.8 }}
         >
           <a href="#projects" >
-          <button className="bg-black/50 bo  text-white/70 px-5 py-2 rounded-full font-semibold hover:bg-black">
+          <button className="bg-gray-500 bo  text-white/70 px-5 py-2 rounded-full font-semibold hover:bg-black">
             View Projects
           </button>
           </a>
@@ -49,7 +49,7 @@ function Portfolio() {
           <motion.img
             src="./me.png"
             alt="Mohit Tailor"
-            className="w-[75%] rounded-2xl sm:max-w-[180px] r shadow-xl  mx-auto mb-6"
+            className="w-[75%] rounded-2xl bo r shadow-xl  mx-auto mb-6"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 1 }}
