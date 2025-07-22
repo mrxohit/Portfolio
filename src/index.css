@@ -5,10 +5,10 @@
 body {
  
   background-image: url("./assets/46.png");
-
+  background-color: #191a3d;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   
 }
 
@@ -41,7 +41,9 @@ body {
   .hd{
     font-size: 1.5rem;
   }
-  
+  .ab{
+    padding: 2px;
+  }
   .s{
     font-size: 1.2rem;
   }

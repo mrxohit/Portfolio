@@ -9,7 +9,7 @@ function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       id= "about"
-       className="h-full mt-[5vw] w-[80vw] ml-[8vw] sda bg-black/30  text-white/40 rounded-2xl bo  p-12">
+       className="h-full mt-[5vw] w-[80vw] ml-[8vw] sda bg-black/30  text-white/40 rounded-2xl bo ab  p-12">
       <div className="max-w-7xl mx-auto">
         <motion.h1
           initial={{ scale: 0.8, opacity: 0 }}
