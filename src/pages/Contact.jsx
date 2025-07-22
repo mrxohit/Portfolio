@@ -8,7 +8,7 @@ const Contact = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       id="contact"
-      className="min-h-screen flex items-center  justify-center  px-4 py-10"
+      className="min-h-auto flex items-center  justify-center  px-4 py-10 mb-[4%] mt-[4%]"
     >
       <div className="w-full max-w-4xl bg-black/15 sda  backdrop-blur-lg border border-white/20 rounded-2xl shadow-2xl p-10 text-white/60">
         <h2 className="text-4xl font-bold mb-6 text-center">Get in Touch</h2>
@@ -30,15 +30,15 @@ const Contact = () => {
             <div className="flex items-center gap-4 text-center mt-20">
               
               <a href="https://www.instagram.com/mohits.codes?utm_source=ig_web_button_share_sheet&igsh=dWMzaGNydTkxcnF3" target="_blank" rel="noopener noreferrer">
-            <FaInstagram className="text-xl hover:text-blue-900  cursor-pointer text-white/40" />
+            <FaInstagram className="text-xl hover:text-black  cursor-pointer text-white/40" />
             </a>
 
-            <FaFacebook className="text-xl  hover:text-blue-900  cursor-pointer text-white/40" />
+            <FaFacebook className="text-xl  hover:text-black  cursor-pointer text-white/40" />
 
             <a href="https://www.linkedin.com/in/mr-xohit/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-xl  hover:text-blue-900  cursor-pointer text-white/40" />
+            <FaLinkedin className="text-xl  hover:text-black  cursor-pointer text-white/40" />
             </a>
-            <FaReddit className="text-xl  hover:text-blue-900  cursor-pointer text-white/40" />
+            <FaReddit className="text-xl  hover:text-black cursor-pointer text-white/40" />
             
             </div></p>
           </div>

@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import "../index.css";
 function Portfolio() {
-  return (<div className="">
-      <div className=" grid md:grid-cols-2  gap-8 ml-[3.5vw] w-[95vw] p-16  o   ">
+  return (<div id="home" className="mx-[2%] ">
+      <div className=" grid md:grid-cols-2  gap-8  w-auto p-16  o   ">
         
 
         <div className="justify-items-start pt-[10vh] items-start flex flex-col   mt-[7vw]  ">
@@ -24,7 +24,7 @@ function Portfolio() {
           Web Developer
         </motion.p>
         <motion.p
-          className="text-md font-semibold text-white/50 md:text-lg mt-2"
+          className="text-md font-semibold text-black/40 md:text-lg mt-2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.9, duration: 0.8 }}
@@ -45,11 +45,11 @@ function Portfolio() {
         </motion.div>
         
         </div>
-        <div className="flex justify-center  p-[1vw pt-[10vh] items-center">
+        <div className="flex justify-center   pt-[13%] items-center">
           <motion.img
             src="./me.png"
             alt="Mohit Tailor"
-            className="w-[75%] rounded-2xl bo r shadow-xl  mx-auto mb-6"
+            className="w-[80%]  rounded-2xl bo r shadow-xl  mx-auto mb-6"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 1 }}

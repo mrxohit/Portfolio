@@ -27,14 +27,14 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="service" className="py-20  text-white px-4 md:px-12">
+    <section id="service" className="px-[2%]  py-[4%] text-white  md:px-12">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         className="text-center mb-14"
       >
-        <h1 className="text-3xl h1 text-center md:text-4xl font-bold  mb-14 border-b-4 border-black/30 text-black/60  bg-white/20 px-10 py-1 rounded-2xl inline-block">
+        <h1 className="text-3xl h1 text-center md:text-4xl font-bold  mb-14 border-b-4 border-black/30 text-white/60 px-10 py-1 rounded-2xl inline-block">
           Services
         </h1>
         <p className="text-white/70 font-semibold">Here’s what I can offer to boost your online presence</p>

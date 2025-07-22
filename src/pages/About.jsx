@@ -9,16 +9,17 @@ function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       id= "about"
-       className="h-full mt-[5vw] w-[80vw] ml-[8vw] sda bg-black/30  text-white/40 rounded-2xl bo ab  p-12">
+       className="h-auto bg-black/15  sda  w-auto mx-[2%]   text-white/40 rounded-2xl bo ab  py-[5%] p-[2%]">
       <div className="max-w-7xl mx-auto">
+        <div className="flex justify-center">
         <motion.h1
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
-           className="text-4xl hd md:text-5xl font-bold mb-8 border-b-4 border-black/30 sm:text-3xl bg-white/20 px-10 py-1 rounded-2xl inline-block">
+           className="text-3xl hd md:text-4xl text-white/60 font-bold mb-8 border-b-4 border-black/30 sm:text-3xl px-10 py-1 rounded-2xl inline-block">
           About Me
         </motion.h1>
-
+</div>
         <div className="grid md:grid-cols-2 gap-10  items-center">
           <motion.div
             initial={{ x: -40, opacity: 0 }}
@@ -45,7 +46,7 @@ function About() {
             <img
               src="./me.png"
               alt="Mohit's Profile"
-              className="rounded-2x bg-black/20 bo r shadow-lg max-w-[300px] md:max-w-[400px] "
+              className="rounded-2x bg-black/10 bo r shadow-lg max-w-[300px] md:max-w-[400px]  w-[100%] "
             />
           </motion.div>
         </div>

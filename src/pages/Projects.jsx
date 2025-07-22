@@ -30,9 +30,9 @@ const Projects = () => {
   ];
 
   return (
-    <div id="projects" className=" sda bg-black/30  w-[85vw] mt-16  ml-[5.7vw] py-16 px-4 mb-24 rounded-3xl">
+    <div id="projects" className="   w-full mt-16   py-16 px-16 mb-24 rounded-3xl">
       {/* <h2 className="text-3xl text-white font-bold mb-8 text-center">My Projects</h2> */}
-      <div className="flex justify-center"><h1 className="text-3xl md:text-4xl font-bold  mb-8 border-b-4 border-black/30 text-black/60 font-serif hd  bg-white/20 px-10 py-1 rounded-2xl inline-block">
+      <div className="flex justify-center"><h1 className="text-3xl md:text-4xl font-bold  mb-8 border-b-4 border-black/30 text-white/60  hd   px-10 py-1 rounded-2xl inline-block">
           Projects
         </h1></div>
       <div className="grid  md:grid-cols-2  min-w-screen lg:grid-cols-3 gap-6">
