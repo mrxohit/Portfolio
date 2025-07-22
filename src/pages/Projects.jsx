@@ -30,7 +30,7 @@ const Projects = () => {
   ];
 
   return (
-    <div id="projects" className="   w-full mt-16   py-16 px-16 mb-24 rounded-3xl">
+    <div id="projects" className="   w-auto mt-16   py-16 mx-[4%] mb-24 rounded-3xl">
       {/* <h2 className="text-3xl text-white font-bold mb-8 text-center">My Projects</h2> */}
       <div className="flex justify-center"><h1 className="text-3xl md:text-4xl font-bold  mb-8 border-b-4 border-black/30 text-white/60  hd   px-10 py-1 rounded-2xl inline-block">
           Projects

@@ -9,7 +9,7 @@ function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       id= "about"
-       className="h-auto bg-black/15  sda  w-auto mx-[2%]   text-white/40 rounded-2xl bo ab  py-[5%] p-[2%]">
+       className="h-auto bg-black/15  sda  w-auto mx-[4%]   text-white/40 rounded-2xl bo ab  py-[5%] p-[4%]">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-center">
         <motion.h1
